@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio – NexForge 3D | Our Work & Projects</title>
+<meta name="description" content="Browse NexForge 3D's project portfolio — automotive prototypes, medical devices, architectural models, industrial parts, and more.">
+<link rel="stylesheet" href="styles.css">
+<style>
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:48px;}
+.filter-btn{padding:9px 22px;border-radius:100px;font-size:.85rem;font-weight:600;border:1.5px solid var(--border);color:var(--text-secondary);background:transparent;cursor:pointer;transition:var(--transition);}
+.filter-btn:hover,.filter-btn.active{background:var(--blue-glow);border-color:var(--border-blue);color:var(--blue);}
+.portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
+.svg-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:32px;}
+@media(max-width:1024px){.portfolio-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:600px){.portfolio-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Our Work</span>
+    <h1>Projects That <span class="gradient-text">Define Precision</span></h1>
+    <div class="divider"></div>
+    <p>A selection of projects across industries — showcasing the breadth and depth of our additive manufacturing capabilities.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active">All Projects</button>
+      <button class="filter-btn">Automotive</button>
+      <button class="filter-btn">Medical</button>
+      <button class="filter-btn">Architecture</button>
+      <button class="filter-btn">Industrial</button>
+      <button class="filter-btn">Consumer</button>
+    </div>
+    <div class="portfolio-grid">
+
+      <!-- Card 1 -->
+      <div class="portfolio-card animate-on-scroll">
+        <div class="portfolio-img">
+          <img src="C:/Users/deepak/.gemini/antigravity/brain/b2f35f81-ffc1-4e30-b660-33a1008ea707/prototype_car_1777573754342.png" alt="EV Battery Housing Prototype">
+          <div class="portfolio-overlay">
+            <span class="portfolio-industry">Automotive</span>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>EV Battery Housing Prototype</h3>
+          <p>Designed and printed a 1:1 scale battery module housing for an electric two-wheeler startup. Multiple iterations in ABS for thermal testing before final tooling approval.</p>
+          <div class="portfolio-result">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            Reduced prototype cycle time by 65%
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="portfolio-card animate-on-scroll delay-1">
+        <div class="portfolio-img">
+          <div class="portfolio-img-placeholder" style="background:linear-gradient(135deg,#0d1520,#0a1a2e);">
+            <svg viewBox="0 0 200 160" class="svg-placeholder" style="opacity:.5;">
+              <rect x="40" y="30" width="120" height="80" rx="8" fill="none" stroke="#00a8ff" stroke-width="2"/>
+              <rect x="60" y="50" width="80" height="40" rx="4" fill="none" stroke="#00a8ff" stroke-width="1.5" stroke-dasharray="4 3"/>
+              <circle cx="80" cy="70" r="10" fill="none" stroke="#ff6b35" stroke-width="2"/>
+              <circle cx="120" cy="70" r="10" fill="none" stroke="#ff6b35" stroke-width="2"/>
+              <line x1="90" y1="70" x2="110" y2="70" stroke="#00a8ff" stroke-width="1.5"/>
+              <line x1="100" y1="110" x2="100" y2="125" stroke="#00a8ff" stroke-width="2"/>
+              <ellipse cx="100" cy="130" rx="20" ry="6" fill="none" stroke="#00a8ff" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-industry">Medical</span>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>Surgical Instrument Tray</h3>
+          <p>Custom sterilisable PETG instrument trays for a hospital surgical unit. 50-unit batch with individual labelling and tight tolerance slots for each instrument profile.</p>
+          <div class="portfolio-result">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            Delivered 48 hrs ahead of surgical schedule
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="portfolio-card animate-on-scroll delay-2">
+        <div class="portfolio-img">
+          <div class="portfolio-img-placeholder" style="background:linear-gradient(135deg,#0f0d15,#1a1030);">
+            <svg viewBox="0 0 200 160" class="svg-placeholder" style="opacity:.5;">
+              <polygon points="100,20 160,50 160,110 100,140 40,110 40,50" fill="none" stroke="#ff6b35" stroke-width="2"/>
+              <polygon points="100,35 145,57 145,103 100,125 55,103 55,57" fill="none" stroke="#ff6b35" stroke-width="1" stroke-dasharray="3 3"/>
+              <rect x="80" y="60" width="40" height="30" rx="2" fill="none" stroke="#00a8ff" stroke-width="1.5"/>
+              <line x1="100" y1="20" x2="100" y2="35" stroke="#ff6b35" stroke-width="1.5"/>
+              <line x1="55" y1="57" x2="40" y2="50" stroke="#ff6b35" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-industry">Architecture</span>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>Urban Mixed-Use Development Model</h3>
+          <p>1:200 scale architectural model of a 12-tower residential complex with retail podium. Printed in white PLA with translucent resin glazing elements. Used for client presentation.</p>
+          <div class="portfolio-result">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            Won ₹18 Cr project approval at presentation
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="portfolio-card animate-on-scroll">
+        <div class="portfolio-img">
+          <img src="C:/Users/deepak/.gemini/antigravity/brain/b2f35f81-ffc1-4e30-b660-33a1008ea707/portfolio_parts_1777573528533.png" alt="Industrial Valve Components">
+          <div class="portfolio-overlay">
+            <span class="portfolio-industry">Industrial</span>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>Custom Valve &amp; Bracket Set</h3>
+          <p>200-unit run of precision flow-control valve bodies in Nylon PA12 for a process automation OEM. Required ±0.15mm tolerance on mating surfaces for leak-free assembly.</p>
+          <div class="portfolio-result">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            Zero rejection rate across 200 units
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="portfolio-card animate-on-scroll delay-1">
+        <div class="portfolio-img">
+          <div class="portfolio-img-placeholder" style="background:linear-gradient(135deg,#0f1510,#1a2a10);">
+            <svg viewBox="0 0 200 160" class="svg-placeholder" style="opacity:.45;">
+              <rect x="30" y="40" width="140" height="90" rx="12" fill="none" stroke="#00a8ff" stroke-width="2"/>
+              <rect x="50" y="60" width="100" height="50" rx="6" fill="none" stroke="#00a8ff" stroke-width="1.5"/>
+              <circle cx="80" cy="85" r="12" fill="none" stroke="#ff6b35" stroke-width="2"/>
+              <circle cx="120" cy="85" r="12" fill="none" stroke="#ff6b35" stroke-width="2"/>
+              <rect x="94" y="78" width="12" height="14" rx="2" fill="#00a8ff" opacity=".4"/>
+            </svg>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-industry">Consumer</span>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>Smart Home Device Enclosure</h3>
+          <p>Pre-production enclosure for an IoT air quality monitor. SLA-printed in Tough 2000 resin with sanded and primed finish for presentation to retail buyers and app-store listing photography.</p>
+          <div class="portfolio-result">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            Secured seed funding at demo day
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="portfolio-card animate-on-scroll delay-2">
+        <div class="portfolio-img">
+          <div class="portfolio-img-placeholder" style="background:linear-gradient(135deg,#150d0d,#2a1010);">
+            <svg viewBox="0 0 200 160" class="svg-placeholder" style="opacity:.45;">
+              <ellipse cx="100" cy="80" rx="60" ry="40" fill="none" stroke="#ff6b35" stroke-width="2"/>
+              <ellipse cx="100" cy="80" rx="40" ry="25" fill="none" stroke="#ff6b35" stroke-width="1.5" stroke-dasharray="4 3"/>
+              <ellipse cx="100" cy="80" rx="20" ry="12" fill="none" stroke="#00a8ff" stroke-width="2"/>
+              <line x1="100" y1="40" x2="100" y2="55" stroke="#ff6b35" stroke-width="2"/>
+              <line x1="100" y1="105" x2="100" y2="120" stroke="#ff6b35" stroke-width="2"/>
+              <circle cx="100" cy="80" r="4" fill="#00a8ff"/>
+            </svg>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-industry">Aerospace</span>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>UAV Airframe Prototype</h3>
+          <p>Structural airframe and wing ribs for a fixed-wing UAV research project at IIT Chennai. Carbon-fibre PLA for high stiffness-to-weight ratio. Withstood 12G load testing.</p>
+          <div class="portfolio-result">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            40% lighter than machined aluminium equivalent
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <span class="eyebrow" style="display:block;text-align:center;">Your Project Next</span>
+    <h2>Have a <span class="gradient-text">Project in Mind?</span></h2>
+    <p>Tell us about your application and we'll show you how NexForge 3D can bring it to life with precision and speed.</p>
+    <div class="cta-actions">
+      <a href="contact.html" class="btn btn-primary">Start a Project</a>
+      <a href="services.html" class="btn btn-secondary">View Services</a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="components.js"></script>
+<script src="main.js"></script>
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>

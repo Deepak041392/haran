@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NexForge 3D – Precision 3D Printing for Modern Innovation</title>
+<meta name="description" content="NexForge 3D delivers professional FDM, SLA, and rapid prototyping services across India. From concept to creation – precision additive manufacturing.">
+<link rel="stylesheet" href="styles.css">
+<style>
+.services-preview{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.industries-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.hero-visual{position:absolute;right:0;top:50%;transform:translateY(-50%);width:48%;opacity:.6;pointer-events:none;}
+@media(max-width:1024px){.services-preview{grid-template-columns:repeat(2,1fr);}.industries-grid{grid-template-columns:repeat(2,1fr);}.testimonials-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:768px){.services-preview,.testimonials-grid{grid-template-columns:1fr;}.industries-grid{grid-template-columns:repeat(2,1fr);}.hero-visual{display:none;}}
+</style>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="C:/Users/deepak/.gemini/antigravity/brain/b2f35f81-ffc1-4e30-b660-33a1008ea707/hero_3d_print_1777573349455.png" alt="3D printer in action">
+  </div>
+  <div class="hero-grid-overlay"></div>
+  <div class="container" style="position:relative;z-index:2;padding-top:40px;padding-bottom:40px;">
+    <div class="hero-content">
+      <div class="hero-badge">⬡ India's Premier Additive Manufacturing Studio</div>
+      <h1>From <span class="gradient-text">Concept</span><br>to Creation</h1>
+      <p class="hero-sub">NexForge 3D transforms your ideas into precision-engineered physical realities. Industrial-grade FDM &amp; SLA printing, rapid prototyping, and custom part manufacturing — delivered with engineering excellence.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.14 13.5 19.79 19.79 0 011.07 4.88 2 2 0 013.05 2.7h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Request a Quote
+        </a>
+        <a href="services.html" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          Explore Services
+        </a>
+      </div>
+      <div class="hero-stats stats-section">
+        <div>
+          <div class="hero-stat-num"><span data-count="850" data-suffix="+">850+</span></div>
+          <div class="hero-stat-label">Projects Delivered</div>
+        </div>
+        <div>
+          <div class="hero-stat-num"><span data-count="7" data-suffix="">7</span>+</div>
+          <div class="hero-stat-label">Years Experience</div>
+        </div>
+        <div>
+          <div class="hero-stat-num"><span data-count="98" data-suffix="%">98%</span></div>
+          <div class="hero-stat-label">Client Satisfaction</div>
+        </div>
+        <div>
+          <div class="hero-stat-num"><span data-count="40" data-suffix="+">40+</span></div>
+          <div class="hero-stat-label">Materials Available</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES OVERVIEW -->
+<section class="section" style="background:var(--bg-secondary);">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">What We Do</span>
+      <h2>End-to-End <span class="gradient-text">3D Printing</span> Services</h2>
+      <p>From functional prototypes to production-ready parts — we cover every stage of additive manufacturing with precision and speed.</p>
+    </div>
+    <div class="services-preview">
+      <div class="card animate-on-scroll">
+        <div class="card-icon blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00a8ff" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3>FDM 3D Printing</h3>
+        <p>Fused Deposition Modelling for durable, functional parts. Ideal for structural components, enclosures, and production jigs in PLA, ABS, PETG, and TPU.</p>
+        <a href="services.html#fdm" class="btn btn-secondary" style="margin-top:20px;padding:10px 20px;font-size:.85rem;">Learn More →</a>
+      </div>
+      <div class="card animate-on-scroll delay-1">
+        <div class="card-icon orange">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#ff6b35" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/><path d="M5 3L2 2l1 3"/><path d="M19 3l3-1-1 3"/></svg>
+        </div>
+        <h3>SLA / Resin Printing</h3>
+        <p>Stereolithography for ultra-fine detail and smooth surface finish. Perfect for jewellery, dental models, figurines, and micro-engineering applications.</p>
+        <a href="services.html#sla" class="btn btn-secondary" style="margin-top:20px;padding:10px 20px;font-size:.85rem;">Learn More →</a>
+      </div>
+      <div class="card animate-on-scroll delay-2">
+        <div class="card-icon blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00a8ff" stroke-width="2"><polyline points="13 2 13 9 20 9"/><path d="M20 14.66V20a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2h5.34"/><polygon points="18 2 22 6 12 16 8 16 8 12 18 2"/></svg>
+        </div>
+        <h3>Rapid Prototyping</h3>
+        <p>Accelerate your product development cycle. From CAD file to physical prototype in as little as 24 hours — iterate faster, launch sooner.</p>
+        <a href="services.html#rapid" class="btn btn-secondary" style="margin-top:20px;padding:10px 20px;font-size:.85rem;">Learn More →</a>
+      </div>
+      <div class="card animate-on-scroll delay-3">
+        <div class="card-icon orange">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#ff6b35" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+        </div>
+        <h3>Custom Part Manufacturing</h3>
+        <p>Low-volume production of custom parts for industrial, commercial, and consumer applications. Consistent quality from unit 1 to unit 1,000.</p>
+        <a href="services.html#custom" class="btn btn-secondary" style="margin-top:20px;padding:10px 20px;font-size:.85rem;">Learn More →</a>
+      </div>
+      <div class="card animate-on-scroll delay-1">
+        <div class="card-icon blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00a8ff" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+        </div>
+        <h3>Design Assistance</h3>
+        <p>Not print-ready yet? Our engineers help optimise your CAD model for 3D printing — wall thickness, supports, tolerances, and material selection.</p>
+        <a href="services.html#design" class="btn btn-secondary" style="margin-top:20px;padding:10px 20px;font-size:.85rem;">Learn More →</a>
+      </div>
+      <div class="card animate-on-scroll delay-2" style="background:linear-gradient(135deg,rgba(0,168,255,.08),rgba(255,107,53,.06));border-color:var(--border-blue);">
+        <div style="height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:16px;">
+          <div style="font-size:2.5rem;">🚀</div>
+          <h3>Ready to Start?</h3>
+          <p style="color:var(--text-secondary);font-size:.9rem;">Share your requirements and get a detailed quote within 24 hours.</p>
+          <a href="contact.html" class="btn btn-primary" style="margin-top:8px;">Get Free Quote</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Industries We Serve</span>
+      <h2>Built for Every <span class="gradient-text">Industry</span></h2>
+      <p>Our additive manufacturing expertise spans across sectors that demand precision, speed, and engineering rigour.</p>
+    </div>
+    <div class="industries-grid">
+      <div class="industry-pill animate-on-scroll">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+        <span>Automotive &amp; Transport</span>
+      </div>
+      <div class="industry-pill animate-on-scroll delay-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        <span>Medical &amp; Healthcare</span>
+      </div>
+      <div class="industry-pill animate-on-scroll delay-2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 9 12 2 21 9 21 20 3 20 3 9"/></svg>
+        <span>Architecture &amp; Construction</span>
+      </div>
+      <div class="industry-pill animate-on-scroll delay-3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <span>Education &amp; Research</span>
+      </div>
+      <div class="industry-pill animate-on-scroll">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+        <span>Electronics &amp; PCB Enclosures</span>
+      </div>
+      <div class="industry-pill animate-on-scroll delay-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+        <span>Aerospace &amp; Defence</span>
+      </div>
+      <div class="industry-pill animate-on-scroll delay-2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+        <span>Consumer Products</span>
+      </div>
+      <div class="industry-pill animate-on-scroll delay-3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <span>Art, Design &amp; Jewellery</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="section" style="background:var(--bg-secondary);">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <span class="eyebrow">Why NexForge 3D</span>
+        <h2>Engineering <span class="gradient-text">Excellence</span> You Can Trust</h2>
+        <div class="divider left"></div>
+        <p style="color:var(--text-secondary);margin:20px 0 36px;line-height:1.8;">We combine deep material science knowledge with cutting-edge printing technology to deliver parts that meet strict engineering tolerances — every time.</p>
+        <a href="about.html" class="btn btn-primary">Our Story →</a>
+      </div>
+      <div>
+        <div class="why-item animate-on-scroll">
+          <div class="why-num">01</div>
+          <div class="why-text">
+            <h4>Industrial-Grade Equipment</h4>
+            <p>Our fleet of Ultimaker S5, Formlabs Form 3, and Raise3D Pro printers ensures dimensional accuracy within ±0.1mm on every build.</p>
+          </div>
+        </div>
+        <div class="why-item animate-on-scroll delay-1">
+          <div class="why-num">02</div>
+          <div class="why-text">
+            <h4>Fast Turnaround</h4>
+            <p>Standard delivery in 48–72 hours. Express prototyping available for urgent requirements with same-day dispatch in Chennai.</p>
+          </div>
+        </div>
+        <div class="why-item animate-on-scroll delay-2">
+          <div class="why-num">03</div>
+          <div class="why-text">
+            <h4>40+ Material Options</h4>
+            <p>From standard PLA and ABS to engineering-grade Nylon, PEEK, TPU, and photopolymer resins — the right material for every application.</p>
+          </div>
+        </div>
+        <div class="why-item animate-on-scroll delay-3">
+          <div class="why-num">04</div>
+          <div class="why-text">
+            <h4>Dedicated Engineering Support</h4>
+            <p>Every project gets a dedicated engineer reviewing your design for printability, strength, and cost-efficiency before we start printing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Client Testimonials</span>
+      <h2>Trusted by <span class="gradient-text">Engineers &amp; Innovators</span></h2>
+      <p>Hear directly from the startups, enterprises, and research teams who rely on NexForge 3D for their critical manufacturing needs.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card animate-on-scroll">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote>"NexForge printed our EV battery housing prototype with remarkable accuracy. The engineers suggested design tweaks that saved us two weeks of iteration. Outstanding service."</blockquote>
+        <div class="testimonial-author">
+          <div class="author-avatar">RK</div>
+          <div>
+            <div class="author-name">Rajesh Kumar</div>
+            <div class="author-role">Lead Engineer, Volta EV Systems, Pune</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card animate-on-scroll delay-1">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote>"We needed 50 custom orthopaedic tool handles for a clinical trial. NexForge delivered biocompatible PETG parts on time with perfect consistency. Will definitely work with them again."</blockquote>
+        <div class="testimonial-author">
+          <div class="author-avatar">PA</div>
+          <div>
+            <div class="author-name">Dr. Priya Anand</div>
+            <div class="author-role">Research Director, MedInnovate Labs, Bengaluru</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card animate-on-scroll delay-2">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote>"Our architecture firm uses NexForge for all scale models. The detail on our SLA prints is breathtaking — clients are always impressed. Fast, professional, and genuinely helpful."</blockquote>
+        <div class="testimonial-author">
+          <div class="author-avatar">SM</div>
+          <div>
+            <div class="author-name">Siddharth Mehta</div>
+            <div class="author-role">Principal Architect, Forma Design Studio, Mumbai</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <span class="eyebrow" style="display:block;text-align:center;">Start Your Project</span>
+    <h2>Ready to <span class="gradient-text">Build Something</span> Extraordinary?</h2>
+    <p>Share your design files or describe your requirements. Our engineering team will respond with a tailored solution within 24 hours — no obligation.</p>
+    <div class="cta-actions">
+      <a href="contact.html" class="btn btn-primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.14 13.5"/><path d="M1 1l22 22"/></svg>
+        Request a Quote
+      </a>
+      <a href="portfolio.html" class="btn btn-secondary">View Our Work →</a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="components.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
