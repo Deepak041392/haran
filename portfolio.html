@@ -27,8 +27,10 @@
 .why-no-brands{background:linear-gradient(135deg,rgba(0,200,255,.06),rgba(255,107,53,.04));border:1px solid var(--border-blue);border-radius:var(--radius-lg);padding:32px;margin-top:32px;}
 .why-no-brands h4{margin-bottom:12px;}
 .why-no-brands p{font-size:.9rem;color:var(--text-secondary);line-height:1.75;}
-@media(max-width:768px){.material-grid{grid-template-columns:1fr 1fr;}.section-intro{grid-template-columns:1fr;gap:24px;}.printer-grid{grid-template-columns:1fr;}}
-@media(max-width:480px){.material-grid{grid-template-columns:1fr;}}
+@media(max-width:768px){.material-grid{grid-template-columns:1fr 1fr;gap:16px;}.section-intro{grid-template-columns:1fr;gap:24px;}.printer-grid{grid-template-columns:1fr;}.material-card{padding:20px;}.material-icon{width:44px;height:44px;font-size:1.3rem;margin-bottom:14px;}.material-card h4{font-size:.95rem;}.material-card p{font-size:.82rem;}.printer-card{padding:24px;}.printer-card h4{font-size:1rem;}.printer-card p{font-size:.85rem;}.why-no-brands{padding:24px;}.why-no-brands p{font-size:.85rem;}}
+@media(max-width:480px){.material-grid{grid-template-columns:1fr;}.material-card{padding:18px;}.printer-card{padding:20px;}.why-no-brands{padding:18px;}.specialty-grid{grid-template-columns:1fr 1fr !important;}}
+.specialty-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+@media(max-width:768px){.specialty-grid{grid-template-columns:repeat(2,1fr) !important;}}
 </style>
 </head>
 <body>
@@ -120,7 +122,7 @@
       <div style="background:var(--bg-secondary);border-radius:var(--radius-lg);padding:32px;border:1px solid var(--border);" id="engineering-grade">
         <h3 style="margin-bottom:8px;">Engineering Grade &amp; Specialty Filaments</h3>
         <p style="color:var(--text-secondary);font-size:.9rem;margin-bottom:24px;">Advanced materials for specialized engineering and industrial applications requiring superior performance characteristics.</p>
-        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+        <div class="specialty-grid">
           <div class="card" style="padding:20px;text-align:center;">
             <div style="font-size:1.8rem;margin-bottom:8px;">🔶</div>
             <h5 style="font-size:.9rem;margin-bottom:4px;">Engineering Grade</h5>
@@ -203,6 +205,41 @@
               <p>Tough and durable resins for snap-fit enclosures, functional assemblies, and end-use components requiring impact resistance.</p>
               <div class="material-tags">
                 <span class="service-tag" style="background:var(--orange-glow);border-color:rgba(255,107,53,.3);color:var(--orange);">Functional Use</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLS POWDERS -->
+    <div class="product-section" id="sls-powders" style="padding-top:48px;border-top:1px solid var(--border);">
+      <div class="section-intro">
+        <div>
+          <div class="section-intro-badge" style="background:var(--cyan-glow);border-color:rgba(0,153,204,.35);color:var(--cyan-dark);">Powder Materials</div>
+          <h2>SLS <span class="gradient-text">Powders</span></h2>
+          <div class="divider left"></div>
+          <p style="color:var(--text-secondary);line-height:1.75;margin-top:16px;">High-performance powder materials for Selective Laser Sintering (SLS), offering excellent mechanical properties, durability, and cost-effectiveness for functional parts and production runs.</p>
+          <a href="contact.html" class="btn btn-secondary" style="margin-top:24px;">Enquire About Powders</a>
+        </div>
+        <div>
+          <div class="material-grid">
+            <div class="material-card animate-on-scroll">
+              <div class="material-icon" style="background:var(--cyan-glow);">♻️</div>
+              <h4>SLS Refurbished Powder</h4>
+              <p>Sustainable and cost-effective refurbished nylon powders optimized for high-quality SLS printing without compromising on part strength or detail.</p>
+              <div class="material-tags">
+                <span class="service-tag" style="background:var(--cyan-glow);border-color:rgba(0,153,204,.3);color:var(--cyan-dark);">Eco-Friendly</span>
+                <span class="service-tag" style="background:var(--cyan-glow);border-color:rgba(0,153,204,.3);color:var(--cyan-dark);">Cost Effective</span>
+              </div>
+            </div>
+            <div class="material-card animate-on-scroll delay-1">
+              <div class="material-icon" style="background:rgba(100,100,100,.2);">⬛</div>
+              <h4>Carbon Fibre Powder</h4>
+              <p>Carbon fiber reinforced SLS powder delivering exceptional stiffness, high strength-to-weight ratio, and thermal resistance for demanding industrial applications.</p>
+              <div class="material-tags">
+                <span class="service-tag" style="background:var(--cyan-glow);border-color:rgba(0,153,204,.3);color:var(--cyan-dark);">High Stiffness</span>
+                <span class="service-tag" style="background:var(--cyan-glow);border-color:rgba(0,153,204,.3);color:var(--cyan-dark);">Lightweight</span>
               </div>
             </div>
           </div>

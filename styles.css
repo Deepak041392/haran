@@ -254,26 +254,180 @@ footer{background:var(--navy);border-top:3px solid var(--gold);padding:64px 0 32
 .delay-3{transition-delay:.3s!important;}
 .delay-4{transition-delay:.4s!important;}
 
-/* RESPONSIVE */
+/* ══════════════════════════════════════ */
+/* RESPONSIVE – ALL SCREEN SIZES        */
+/* ══════════════════════════════════════ */
+
+/* ── TABLET (max 1024px) ── */
 @media(max-width:1024px){
   .footer-grid{grid-template-columns:1fr 1fr;}
   .grid-4{grid-template-columns:repeat(2,1fr);}
-  .why-grid{grid-template-columns:1fr;}
-  .contact-grid{grid-template-columns:1fr;}
+  .why-grid{grid-template-columns:1fr;gap:32px;}
+  .contact-grid{grid-template-columns:1fr;gap:40px;}
+  .hero-content{max-width:100%;}
+  .hero{min-height:auto;padding-top:calc(var(--nav-h) + 40px);padding-bottom:60px;}
+  .section{padding:80px 0;}
+  .section-header{margin-bottom:48px;}
+  .card{padding:24px;}
+  .contact-form{padding:32px;}
+  h1{font-size:clamp(1.8rem,4vw,3rem);}
+  h2{font-size:clamp(1.5rem,3vw,2.2rem);}
 }
+
+/* ── MOBILE (max 768px) ── */
 @media(max-width:768px){
-  .section{padding:70px 0;}
+  :root{--nav-h:64px;}
+  .section{padding:60px 0;}
+  .section-header{margin-bottom:36px;}
+  .section-header p{font-size:.95rem;}
   .grid-2,.grid-3{grid-template-columns:1fr;}
-  .hero-stats{gap:28px;}
-  .nav-links,.nav-cta .btn-secondary{display:none;}
+  .grid-4{grid-template-columns:1fr 1fr;}
+
+  /* Nav */
+  .nav-links{display:none;}
+  .nav-cta .btn-secondary{display:none;}
   .nav-hamburger{display:flex;}
-  .hero-actions{flex-direction:column;align-items:flex-start;}
+  .nav-logo img{height:40px;}
+  nav{height:var(--nav-h);}
+  .nav-inner{height:var(--nav-h);}
+  .nav-cta .btn-gold{padding:8px 16px;font-size:.8rem;}
+  .mobile-menu a{padding:14px 16px;font-size:1.05rem;}
+
+  /* Hero */
+  .hero{min-height:auto;padding:calc(var(--nav-h) + 30px) 0 50px;}
+  .hero h1{font-size:clamp(1.6rem,6vw,2.4rem);}
+  .hero-sub{font-size:1rem;margin-bottom:28px;}
+  .hero-actions{flex-direction:column;align-items:stretch;gap:12px;}
+  .hero-actions .btn{justify-content:center;text-align:center;width:100%;}
+  .hero-badge{font-size:.72rem;padding:5px 12px;}
+  .hero-stats{gap:20px;margin-top:40px;padding-top:28px;flex-wrap:wrap;}
+  .hero-stat-num{font-size:1.6rem;}
+
+  /* Page Hero */
+  .page-hero{padding:100px 0 50px;}
+  .page-hero h1{font-size:clamp(1.5rem,5.5vw,2.2rem);}
+  .page-hero p{font-size:.95rem;}
+
+  /* Cards */
+  .card{padding:22px;}
+  .card-icon{width:44px;height:44px;margin-bottom:16px;}
+  .service-card-visual{height:160px;}
+  .service-card-body{padding:20px;}
+
+  /* Contact */
+  .contact-form{padding:24px;}
   .form-row{grid-template-columns:1fr;}
-  .footer-grid{grid-template-columns:1fr;}
-  .footer-bottom{flex-direction:column;align-items:center;text-align:center;}
-  .page-hero{padding:120px 0 60px;}
+  input,textarea,select{padding:12px 14px;font-size:.9rem;}
+
+  /* Footer */
+  .footer-grid{grid-template-columns:1fr;gap:32px;}
+  footer{padding:48px 0 24px;}
+  .footer-bottom{flex-direction:column;align-items:center;text-align:center;gap:16px;}
+  .footer-bottom-links{flex-wrap:wrap;justify-content:center;gap:16px;}
+  .footer-brand p{font-size:.85rem;}
+
+  /* Buttons */
+  .btn{padding:12px 24px;font-size:.88rem;}
+  .cta-actions{flex-direction:column;align-items:center;gap:12px;}
+  .cta-actions .btn{width:100%;max-width:320px;justify-content:center;}
+  .cta-section{padding:70px 0;}
+  .cta-section h2{font-size:clamp(1.4rem,4vw,1.8rem);}
+  .cta-section p{font-size:.95rem;}
+
+  /* Why grid */
+  .why-grid{grid-template-columns:1fr;gap:24px;}
+  .why-item{margin-bottom:20px;}
+  .why-num{font-size:2rem;min-width:42px;}
+
+  /* Testimonials */
+  .testimonial-card{padding:22px;}
+
+  /* About */
+  .stat-card{padding:18px;}
+  .stat-card .num{font-size:1.8rem;}
+  .about-hero-img img{height:280px;}
+  .team-card{padding:22px;}
+  .team-avatar{width:64px;height:64px;font-size:1.3rem;}
+
+  /* Divider */
+  .divider{margin:16px auto;}
+  .divider.left{margin:16px 0;}
+
+  /* WhatsApp */
+  .whatsapp-btn{bottom:20px;right:20px;width:48px;height:48px;}
+  .whatsapp-btn svg{width:24px;height:24px;}
+
+  /* Industries */
+  .industry-pill{padding:12px 16px;}
+  .industry-pill span{font-size:.82rem;}
+
+  /* Eyebrow */
+  .eyebrow{font-size:.72rem;letter-spacing:.14em;}
 }
+
+/* ── SMALL MOBILE (max 480px) ── */
 @media(max-width:480px){
   .container{padding:0 16px;}
-  .hero-stats{flex-direction:column;gap:20px;}
+  .section{padding:48px 0;}
+  .grid-4{grid-template-columns:1fr;}
+  .hero-stats{flex-direction:column;gap:16px;}
+  .hero h1{font-size:clamp(1.4rem,7vw,2rem);}
+  .page-hero{padding:90px 0 40px;}
+  .page-hero h1{font-size:clamp(1.3rem,6vw,1.8rem);}
+  .page-hero p{font-size:.88rem;margin-top:.5rem;}
+
+  /* Cards */
+  .card{padding:18px;border-radius:14px;}
+  .service-card-visual{height:140px;}
+  .service-card-body{padding:16px;}
+  .service-card-body h3{font-size:1rem;}
+  .service-card-body p{font-size:.85rem;}
+
+  /* Contact */
+  .contact-form{padding:18px;border-radius:14px;}
+  .contact-detail{gap:12px;margin-bottom:20px;}
+  .contact-detail-icon{width:38px;height:38px;}
+  .contact-detail-value{font-size:.9rem;}
+  .map-placeholder{height:180px;}
+
+  /* Footer */
+  .footer-grid{gap:24px;}
+  footer{padding:36px 0 20px;}
+  .footer-brand p{margin:12px 0 16px;}
+  .footer-social a{width:34px;height:34px;}
+  .footer-bottom p{font-size:.75rem;}
+  .footer-bottom-links a{font-size:.75rem;}
+
+  /* Buttons */
+  .btn{padding:11px 20px;font-size:.85rem;}
+  .cta-actions .btn{max-width:100%;}
+  .cta-section{padding:52px 0;}
+
+  /* Typography */
+  h2{font-size:clamp(1.3rem,5vw,1.7rem);}
+  h3{font-size:clamp(1rem,3vw,1.2rem);}
+
+  /* Nav */
+  .nav-logo img{height:36px;}
+  .nav-cta .btn-gold{padding:7px 14px;font-size:.78rem;}
+
+  /* Misc */
+  .why-num{font-size:1.6rem;min-width:36px;}
+  .testimonial-card blockquote{font-size:.88rem;}
+  .stat-card .num{font-size:1.5rem;}
+}
+
+/* ── TINY SCREENS (max 360px) ── */
+@media(max-width:360px){
+  .container{padding:0 12px;}
+  .hero h1{font-size:1.3rem;}
+  .page-hero h1{font-size:1.25rem;}
+  h2{font-size:1.2rem;}
+  .btn{padding:10px 16px;font-size:.82rem;}
+  .card{padding:16px;}
+  .contact-form{padding:14px;}
+  .nav-logo img{height:32px;}
+  .nav-cta .btn-gold{padding:6px 12px;font-size:.75rem;}
+  .hero-badge{font-size:.65rem;padding:4px 10px;}
+  .footer-col h4{font-size:.78rem;}
 }

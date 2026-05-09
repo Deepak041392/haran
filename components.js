@@ -62,6 +62,7 @@ document.getElementById('footer-placeholder').innerHTML = `
           <li><a href="portfolio.html#sla-resins">SLA &amp; DLP Resins</a></li>
           <li><a href="portfolio.html#metal-ceramic">Metal &amp; Ceramic Filaments</a></li>
           <li><a href="portfolio.html#engineering-grade">Engineering Grade Materials</a></li>
+          <li><a href="portfolio.html#sls-powders">SLS Powders</a></li>
           <li><a href="portfolio.html#printers">3D Printing Systems</a></li>
         </ul>
       </div>
@@ -95,7 +96,8 @@ document.getElementById('footer-placeholder').innerHTML = `
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 Phalin3D Labs. All rights reserved. | Advanced Additive Manufacturing Solutions, Chennai, India</p>
+      <p>© 2025 Phalin3D Labs. All rights reserved. | Advanced Additive Manufacturing Solutions, Chennai, India<br>
+      <span style="display:inline-block;margin-top:6px;font-size:0.75rem;color:rgba(255,255,255,0.4);">Powered by <a href="https://storyarc.in" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600;">Storyarc.in</a></span></p>
       <div class="footer-bottom-links">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Service</a>
