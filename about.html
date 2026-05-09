@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About Us – Phalin3D Labs | Additive Manufacturing Solutions Company</title>
+<meta name="description" content="Phalin3D Labs is an additive manufacturing solutions company focused on delivering high-quality 3D printing materials, advanced manufacturing services, and reliable 3D printing systems. Based in Chennai, India.">
+<link rel="stylesheet" href="styles.css">
+<style>
+.mission-list{list-style:none;display:flex;flex-direction:column;gap:14px;}
+.mission-list li{display:flex;align-items:flex-start;gap:14px;padding:16px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;transition:var(--transition);}
+.mission-list li:hover{border-color:var(--border-blue);background:var(--bg-card-hover);}
+.mission-list li::before{content:'✦';color:var(--blue);font-size:1rem;flex-shrink:0;margin-top:1px;}
+.mission-list li span{font-size:.93rem;color:var(--text-secondary);line-height:1.65;}
+.values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.value-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:28px;text-align:center;transition:var(--transition);}
+.value-card:hover{border-color:var(--border-blue);transform:translateY(-4px);}
+.value-icon{font-size:2.2rem;margin-bottom:16px;}
+.value-card h4{margin-bottom:10px;}
+.value-card p{font-size:.88rem;color:var(--text-secondary);line-height:1.65;}
+.tech-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.tech-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:22px;transition:var(--transition);}
+.tech-card:hover{border-color:var(--border-blue);}
+.tech-card h5{font-size:.95rem;margin-bottom:6px;color:var(--text-primary);}
+.tech-card p{font-size:.82rem;color:var(--text-muted);line-height:1.6;}
+.tech-badge{display:inline-block;background:var(--blue-glow);border:1px solid var(--border-blue);color:var(--blue);padding:2px 10px;border-radius:100px;font-size:.7rem;font-weight:700;letter-spacing:.04em;margin-bottom:10px;}
+@media(max-width:768px){.values-grid,.tech-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:480px){.values-grid,.tech-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">About Phalin3D Labs</span>
+    <h1>Advanced <span class="gradient-text">Additive Manufacturing</span> Solutions</h1>
+    <div class="divider"></div>
+    <p>We simplify and strengthen the adoption of additive manufacturing by offering practical, scalable, and cost-effective solutions for industries, businesses, and innovators.</p>
+  </div>
+</section>
+
+<!-- WHO WE ARE -->
+<section class="section">
+  <div class="container">
+    <div class="why-grid" style="gap:64px;">
+      <div class="animate-on-scroll">
+        <span class="eyebrow">Who We Are</span>
+        <h2>Born from a <span class="gradient-text">Passion</span> for Manufacturing</h2>
+        <div class="divider left"></div>
+        <p style="color:var(--text-secondary);line-height:1.85;margin:20px 0 16px;">Phalin3D Labs is an additive manufacturing solutions company focused on delivering high-quality 3D printing materials, advanced manufacturing services, and reliable 3D printing systems for industries, businesses, educational institutions, and product developers.</p>
+        <p style="color:var(--text-secondary);line-height:1.85;margin-bottom:16px;">We specialize in engineering-grade FDM filaments, industrial SLA &amp; DLP resins, and advanced metal and ceramic filament solutions compatible with FDM 3D printers. Our goal is to simplify and strengthen the adoption of additive manufacturing.</p>
+        <p style="color:var(--text-secondary);line-height:1.85;">Along with material solutions, we provide professional 3D printing services across multiple technologies including FDM, SLA, SLS, MJF, and DMLS to support rapid prototyping, functional testing, tooling, and end-use production applications.</p>
+        <div style="display:flex;gap:16px;margin-top:32px;flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+          <a href="services.html" class="btn btn-secondary">Our Services →</a>
+        </div>
+      </div>
+      <div class="animate-on-scroll delay-1">
+        <!-- Visual: Feature highlights -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+          <div class="card" style="text-align:center;padding:28px 20px;">
+            <div style="font-size:2.5rem;margin-bottom:8px;">🏭</div>
+            <div style="font-family:'Outfit',sans-serif;font-size:1.5rem;font-weight:800;color:var(--blue);">5+</div>
+            <div style="font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;">Technology Platforms</div>
+          </div>
+          <div class="card" style="text-align:center;padding:28px 20px;">
+            <div style="font-size:2.5rem;margin-bottom:8px;">🧪</div>
+            <div style="font-family:'Outfit',sans-serif;font-size:1.5rem;font-weight:800;color:var(--orange);">30+</div>
+            <div style="font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;">Materials Available</div>
+          </div>
+          <div class="card" style="text-align:center;padding:28px 20px;">
+            <div style="font-size:2.5rem;margin-bottom:8px;">🏢</div>
+            <div style="font-family:'Outfit',sans-serif;font-size:1.5rem;font-weight:800;color:var(--blue);">10+</div>
+            <div style="font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;">Industries Served</div>
+          </div>
+          <div class="card" style="text-align:center;padding:28px 20px;">
+            <div style="font-size:2.5rem;margin-bottom:8px;">📍</div>
+            <div style="font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:800;color:var(--orange);">Chennai</div>
+            <div style="font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;">India</div>
+          </div>
+        </div>
+        <div class="card" style="margin-top:20px;background:linear-gradient(135deg,rgba(0,200,255,.08),rgba(255,107,53,.06));border-color:var(--border-blue);padding:24px;">
+          <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.75;font-style:italic;">"At Phalin3D Labs, we believe innovation begins with the ability to create faster, smarter, and more efficiently."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VISION -->
+<section class="section" style="background:var(--bg-secondary);">
+  <div class="container">
+    <div class="grid-2" style="gap:48px;align-items:start;">
+      <div class="animate-on-scroll">
+        <span class="eyebrow">Our Vision</span>
+        <h2>Where We're <span class="gradient-text">Headed</span></h2>
+        <div class="divider left" style="margin-bottom:28px;"></div>
+        <div class="card" style="background:linear-gradient(135deg,rgba(0,200,255,.06),transparent);border-color:var(--border-blue);padding:32px;">
+          <div style="font-size:2.5rem;margin-bottom:16px;">🎯</div>
+          <h3 style="margin-bottom:16px;">Our Vision</h3>
+          <p style="color:var(--text-secondary);line-height:1.85;font-size:1rem;">To become a trusted leader in additive manufacturing by enabling industries and innovators with accessible, reliable, and advanced 3D printing technologies and materials.</p>
+        </div>
+      </div>
+      <div class="animate-on-scroll delay-1">
+        <span class="eyebrow">Our Mission</span>
+        <h2>What <span class="gradient-text">Drives</span> Us</h2>
+        <div class="divider left" style="margin-bottom:28px;"></div>
+        <ul class="mission-list">
+          <li><span>Provide high-quality and reliable 3D printing materials for industrial and professional applications.</span></li>
+          <li><span>Support businesses and innovators with advanced additive manufacturing solutions.</span></li>
+          <li><span>Simplify product development through efficient prototyping and manufacturing services.</span></li>
+          <li><span>Bridge the gap between innovative ideas and real-world production.</span></li>
+          <li><span>Continuously promote next-generation manufacturing technologies across industries.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNOLOGIES -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Our Technologies</span>
+      <h2>Multi-Technology <span class="gradient-text">Capabilities</span></h2>
+      <p>We work across the full spectrum of additive manufacturing technologies to deliver the right solution for your specific application.</p>
+    </div>
+    <div class="tech-grid animate-on-scroll">
+      <div class="tech-card">
+        <div class="tech-badge">Filament</div>
+        <h5>FDM – Fused Deposition Modeling</h5>
+        <p>Cost-effective and versatile technology for functional prototypes, jigs, fixtures, and engineering applications using thermoplastic materials.</p>
+      </div>
+      <div class="tech-card">
+        <div class="tech-badge" style="background:var(--orange-glow);border-color:rgba(255,107,53,.35);color:var(--orange);">Resin</div>
+        <h5>SLA – Stereolithography</h5>
+        <p>High-precision resin printing with excellent surface finish and fine detail resolution for dental, jewelry, and engineering applications.</p>
+      </div>
+      <div class="tech-card">
+        <div class="tech-badge" style="background:var(--orange-glow);border-color:rgba(255,107,53,.35);color:var(--orange);">Resin</div>
+        <h5>DLP – Digital Light Processing</h5>
+        <p>Industrial-grade resin printing for high-speed production with superior accuracy for functional and precision components.</p>
+      </div>
+      <div class="tech-card">
+        <div class="tech-badge">Powder</div>
+        <h5>SLS – Selective Laser Sintering</h5>
+        <p>Industrial-grade nylon printing for complex geometries, durable functional parts, and end-use components without support structures.</p>
+      </div>
+      <div class="tech-card">
+        <div class="tech-badge">Powder</div>
+        <h5>MJF – Multi Jet Fusion</h5>
+        <p>High-speed production technology suitable for functional end-use parts with consistent mechanical properties and fine feature resolution.</p>
+      </div>
+      <div class="tech-card">
+        <div class="tech-badge" style="background:rgba(255,200,0,.1);border-color:rgba(255,200,0,.3);color:#ffc800;">Metal</div>
+        <h5>DMLS – Direct Metal Laser Sintering</h5>
+        <p>Advanced metal additive manufacturing for high-performance industrial applications requiring exceptional strength and complex geometries.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section" style="background:var(--bg-secondary);">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">What Drives Us</span>
+      <h2>Our Core <span class="gradient-text">Values</span></h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card animate-on-scroll">
+        <div class="value-icon">🎯</div>
+        <h4>Technical Expertise</h4>
+        <p>Deep understanding of additive manufacturing technologies, materials, and their industrial applications. We know the science behind every solution we provide.</p>
+      </div>
+      <div class="value-card animate-on-scroll delay-1">
+        <div class="value-icon">⚡</div>
+        <h4>Reliable Solutions</h4>
+        <p>Focused on quality, consistency, and practical manufacturing outcomes. We deliver solutions that work reliably in real-world professional conditions.</p>
+      </div>
+      <div class="value-card animate-on-scroll delay-2">
+        <div class="value-icon">🤝</div>
+        <h4>Industry-Oriented Approach</h4>
+        <p>Solutions designed based on customer application and production requirements. We listen first, then recommend what truly fits your needs.</p>
+      </div>
+      <div class="value-card animate-on-scroll delay-3">
+        <div class="value-icon">🔄</div>
+        <h4>End-to-End Support</h4>
+        <p>From material selection to final production support — we are with you at every stage of your additive manufacturing journey.</p>
+      </div>
+      <div class="value-card animate-on-scroll">
+        <div class="value-icon">🚀</div>
+        <h4>Innovation Driven</h4>
+        <p>Continuously exploring next-generation additive manufacturing technologies including metal filaments, composites, and advanced resin systems.</p>
+      </div>
+      <div class="value-card animate-on-scroll delay-1">
+        <div class="value-icon">🌱</div>
+        <h4>Accessible Manufacturing</h4>
+        <p>Making advanced additive manufacturing accessible to startups, SMEs, researchers, and educational institutions across India.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <span class="eyebrow" style="display:block;text-align:center;">Work With Us</span>
+    <h2>Let's Build <span class="gradient-text">Something Together</span></h2>
+    <p>Whether you are a startup, an established manufacturer, or a research institution — Phalin3D Labs is ready to support your additive manufacturing goals.</p>
+    <div class="cta-actions">
+      <a href="contact.html" class="btn btn-primary">Request a Consultation</a>
+      <a href="services.html" class="btn btn-secondary">Explore Our Services →</a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="components.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
